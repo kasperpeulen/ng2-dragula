@@ -179,15 +179,31 @@
   </div>
   <div class='parent'>
     <label for='hy'>Copying stuff from only one of the containers and sorting on the other one? No problem!</label>
+    <dragula [copy]="copy" [accepts]="accepts" class='wrapper'>
+      <div id='left-copy-1tomany' class='container'>
+        <div>When elements are copyable, they can't be sorted in their origin container</div>
+        <div>Copying prevents original elements from being dragged. A copy gets created and <em>that</em> gets dragged instead</div>
+        <div>Whenever that happens, a <code>cloned</code> event is raised</div>
+        <div>Note that the clones get destroyed if they're not dropped into another container</div>
+        <div>You'll be dragging a copy, so when they're dropped into another container you'll see the duplication.</div>
+      </div>
+      <div id='right-copy-1tomany' class='container'>
+      </div>
+    </dragula>
+
+        <pre>
+          <code>
 &lt;dragula  [copy]=&quot;copy&quot; [accepts]=&quot;accepts&quot; class='wrapper'&gt;
   &lt;div id='left-copy-1tomany' class='container'&gt;
     ...
   &lt;/div&gt;
   &lt;div id='right-copy-1tomany' class='container'&gt;
+    ...
   &lt;/div&gt;
 &lt;/dragula&gt;
-        <pre>
-          <code>
+
+...
+
 Copy copy = (Element el, Element source) =>
     source == querySelector('#left-copy-1tomany');
 
