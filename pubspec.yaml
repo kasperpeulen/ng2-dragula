@@ -1,0 +1,17 @@
+name: ng2_dragula
+version: 0.0.1
+description: 
+author: Kasper Peulen <kasperpeulen@gmail.com>
+homepage: 
+environment:
+  sdk: '>=1.13.0 <2.0.0'
+dependencies:
+  angular2: '^2.0.0-alpha.37'
+  dragula: '^0.0.3'
+dev_dependencies:
+  dart_to_js_script_rewriter: '^0.1.0+4'
+  browser: '^0.10.0+2'
+transformers:
+- angular2:
+    entry_points: web/main.dart
+- dart_to_js_script_rewriter
