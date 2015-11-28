@@ -2987,7 +2987,7 @@ z=this.a
 y=J.n(a)
 x=y.gej(a)
 if(typeof x!=="number")return x.bm()
-w=C.H.hO(x*1000)
+w=C.I.hO(x*1000)
 if(!z.c.gpf()){x=z.f
 if(typeof x!=="number")return H.G(x)
 w+=x}y.lT(a)
@@ -3023,7 +3023,7 @@ $1:[function(a){return new M.eG(a)},null,null,2,0,null,102,"call"]}}],["","",,T,
 eP:{
 "^":"c;pf:a<",
 pe:function(){$.F.toString
-var z=C.F.d4(document,"div")
+var z=C.G.d4(document,"div")
 $.F.toString
 J.tw(z,"style","position: absolute; top: -9999px; left: -9999px; width: 1px;\n      height: 1px; transition: all 1ms linear 1ms;")
 this.kM(new T.u3(this,z),2)},
@@ -3044,7 +3044,7 @@ u2:{
 "^":"a:0;a,b",
 $1:[function(a){var z=J.t1(a)
 if(typeof z!=="number")return z.bm()
-this.a.a=C.H.hO(z*1000)===2
+this.a.a=C.I.hO(z*1000)===2
 $.F.toString
 J.dF(this.b)},null,null,2,0,null,10,"call"]},
 u4:{
@@ -3879,7 +3879,7 @@ return},null,null,2,0,null,6,"call"]}}],["","",,Y,{
 j2:function(){if($.oh)return
 $.oh=!0
 var z=$.$get$w().a
-z.j(0,C.aJ,new R.z(C.h5,C.a,new Y.GL(),null,null))
+z.j(0,C.aJ,new R.z(C.h6,C.a,new Y.GL(),null,null))
 z.j(0,C.aO,new R.z(C.eW,C.fH,new Y.GM(),C.T,null))
 M.C()
 M.bV()
@@ -4234,7 +4234,7 @@ aa:function(){}}}],["","",,G,{
 "^":"",
 FP:function(){if($.oQ)return
 $.oQ=!0
-$.$get$w().a.j(0,C.bF,new R.z(C.f0,C.eM,new G.Hp(),C.h4,null))
+$.$get$w().a.j(0,C.bF,new R.z(C.f0,C.eM,new G.Hp(),C.h5,null))
 G.aE()
 Y.a1()
 M.C()
@@ -4620,7 +4620,7 @@ N.FX()
 T.eq()}}],["","",,U,{
 "^":"",
 Nm:[function(){return U.iK()+U.iK()+U.iK()},"$0","DY",0,0,1],
-iK:function(){return H.d8(97+C.H.cE(Math.floor($.$get$lh().pW()*25)))}}],["","",,G,{
+iK:function(){return H.d8(97+C.I.cE(Math.floor($.$get$lh().pW()*25)))}}],["","",,G,{
 "^":"",
 jb:function(){if($.oT)return
 $.oT=!0
@@ -4852,11 +4852,11 @@ y=[]
 x=[]
 w=[]
 v=[]
-for(u=this.b;!1;u=u.gqP())z.push(C.G.k(u))
-for(u=this.c;!1;u=u.gqW())y.push(C.G.k(u))
-for(u=this.d;!1;u=u.gqU())x.push(C.G.k(u))
-for(u=this.f;!1;u=u.gqT())w.push(C.G.k(u))
-for(u=this.x;!1;u=u.gqX())v.push(C.G.k(u))
+for(u=this.b;!1;u=u.gqP())z.push(C.H.k(u))
+for(u=this.c;!1;u=u.gqW())y.push(C.H.k(u))
+for(u=this.d;!1;u=u.gqU())x.push(C.H.k(u))
+for(u=this.f;!1;u=u.gqT())w.push(C.H.k(u))
+for(u=this.x;!1;u=u.gqX())v.push(C.H.k(u))
 return"map: "+C.c.N(z,", ")+"\nprevious: "+C.c.N(y,", ")+"\nadditions: "+C.c.N(w,", ")+"\nchanges: "+C.c.N(x,", ")+"\nremovals: "+C.c.N(v,", ")+"\n"}}}],["","",,V,{
 "^":"",
 Gc:function(){if($.pM)return
@@ -5887,7 +5887,7 @@ w9:{
 "^":"vk;",
 mi:function(){var z,y,x,w
 try{x=document
-z=C.F.d4(x,"div")
+z=C.G.d4(x,"div")
 J.eC(J.eB(z),"animationName")
 this.b=""
 y=P.L(["WebkitTransition","webkitTransitionEnd","MozTransition","transitionend","OTransition","oTransitionEnd otransitionend","transition","transitionend"])
@@ -6015,7 +6015,7 @@ this.b.$0()}}}],["","",,T,{
 "^":"",
 eq:function(){if($.qt)return
 $.qt=!0
-$.$get$w().a.j(0,C.bR,new R.z(C.j,C.h2,new T.Iy(),null,null))
+$.$get$w().a.j(0,C.bR,new R.z(C.j,C.h3,new T.Iy(),null,null))
 M.C()
 B.fP()
 G.aE()
@@ -7949,7 +7949,7 @@ v=y.gcf()
 if(x>=v.length)return H.d(v,x)
 v=v[x]
 w.toString
-u=C.F.d4(document,"STYLE")
+u=C.G.d4(document,"STYLE")
 J.jM(u,v)
 z.appendChild(u)}return z},
 q1:[function(a,b,c,d){J.h2(this.a,b,c,F.iS(d))},"$3","gc_",6,0,57],
@@ -8194,7 +8194,7 @@ eW:{
 iu:function(a,b){var z,y,x,w
 for(z=J.n(b),y=0;y<a.length;++y){x=a[y]
 $.F.toString
-w=C.F.d4(document,"STYLE")
+w=C.G.d4(document,"STYLE")
 J.jM(w,x)
 z.ed(b,w)}},
 om:function(a){this.iu(this.a,a)
@@ -8433,8 +8433,8 @@ u=J.eA(a)
 m=C.hX.i(0,u)===!0
 t=$.F
 if(m){t.toString
-n=C.F.oR(document,"http://www.w3.org/2000/svg",u)}else{t.toString
-n=C.F.d4(document,u)}x.jh(n,y,m)
+n=C.G.oR(document,"http://www.w3.org/2000/svg",u)}else{t.toString
+n=C.G.d4(document,u)}x.jh(n,y,m)
 this.f2(n,a.gez(),b)}if(a.geu()){x=b.f
 l=x.length
 x.push(n)
@@ -8687,7 +8687,7 @@ Hs:{
 "^":"a:1;",
 $0:[function(){return new M.ij()},null,null,0,0,null,"call"]}}],["","",,Q,{
 "^":"",
-Kn:[function(){return C.d7},"$0","qG",0,0,1],
+Kn:[function(){return C.d6},"$0","qG",0,0,1],
 BY:{
 "^":"eE;a,b,c,d,e,f,r,x,y,z,Q,ch,cx,cy,db,dx,dy,fr",
 d8:function(a){},
@@ -8711,7 +8711,7 @@ z.fy=y
 z.fx=y
 return z},"$1","Fb",2,0,6,19]}}}],["","",,L,{
 "^":"",
-JN:[function(){return C.d6},"$0","F7",0,0,1],
+JN:[function(){return C.d7},"$0","F7",0,0,1],
 Bw:{
 "^":"eE;fx,fy,go,id,k1,k2,k3,k4,r1,r2,rx,ry,x1,x2,y1,y2,bR,el,em,en,eo,hb,a,b,c,d,e,f,r,x,y,z,Q,ch,cx,cy,db,dx,dy,fr",
 d8:function(a){var z,y,x,w,v,u,t,s
@@ -12033,7 +12033,7 @@ z=this.x
 if(z!=null)return z
 y=this.e
 if(y.length!==0&&C.e.m(y,0)===47)y=C.e.a6(y,1)
-z=y===""?C.h6:J.l0(P.aj(H.h(new H.a6(y.split("/"),P.EX()),[null,null]),!1,P.o))
+z=y===""?C.h7:J.l0(P.aj(H.h(new H.a6(y.split("/"),P.EX()),[null,null]),!1,P.o))
 this.x=z
 return z},
 np:function(a,b){var z,y,x,w,v,u
@@ -12324,7 +12324,7 @@ y=!y
 if(y);if(y)return P.fr(a,b,c,C.b8)
 x=new P.aA("")
 z.a=!0
-C.G.n(d,new P.B_(z,x))
+C.H.n(d,new P.B_(z,x))
 z=x.a
 return z.charCodeAt(0)==0?z:z},i5:function(a,b,c){if(a==null)return
 return P.fr(a,b,c,C.b8)},mI:function(a,b,c){var z,y,x,w,v,u,t,s
@@ -15203,11 +15203,11 @@ ck:function(a){return this.fS(a,null)}},
 hB:{
 "^":"xA;a",
 i:function(a,b){var z
-if(typeof b==="number"&&b===C.H.cE(b)){if(typeof b==="number"&&Math.floor(b)===b)z=b<0||b>=this.gh(this)
+if(typeof b==="number"&&b===C.I.cE(b)){if(typeof b==="number"&&Math.floor(b)===b)z=b<0||b>=this.gh(this)
 else z=!1
 if(z)H.D(P.S(b,0,this.gh(this),null,null))}return this.m0(this,b)},
 j:function(a,b,c){var z
-if(typeof b==="number"&&b===C.H.cE(b)){if(typeof b==="number"&&Math.floor(b)===b)z=b<0||b>=this.gh(this)
+if(typeof b==="number"&&b===C.I.cE(b)){if(typeof b==="number"&&Math.floor(b)===b)z=b<0||b>=this.gh(this)
 else z=!1
 if(z)H.D(P.S(b,0,this.gh(this),null,null))}this.ii(this,b,c)},
 gh:function(a){var z=this.a.length
@@ -15269,7 +15269,7 @@ if(a>b)return a
 if(a<b)return b
 if(typeof b==="number"){if(typeof a==="number")if(a===0)return a+b
 if(isNaN(b))return b
-return a}if(b===0&&C.H.gkm(a))return b
+return a}if(b===0&&C.I.gkm(a))return b
 return a},"$2","jl",4,0,150,19,33],
 Cr:{
 "^":"c;",
@@ -16903,13 +16903,13 @@ a.fixed$length=Array
 return a}
 var $=I.p
 C.b1=W.uQ.prototype
-C.F=W.wi.prototype
+C.G=W.wi.prototype
 C.dA=W.cZ.prototype
 C.dK=J.k.prototype
 C.c=J.dZ.prototype
 C.l=J.l1.prototype
-C.G=J.l2.prototype
-C.H=J.e_.prototype
+C.H=J.l2.prototype
+C.I=J.e_.prototype
 C.e=J.e0.prototype
 C.dT=J.e1.prototype
 C.i8=W.yt.prototype
@@ -16937,34 +16937,39 @@ C.b_=new A.cV(6)
 C.p=new A.hh(0)
 C.d4=new A.hh(1)
 C.b0=new A.hh(2)
+C.i7=new Z.y9(0,null,!1)
+C.eV=I.i([C.i7])
+C.e8=I.i([".gu-mirror {\n    position: fixed !important;\n    margin: 0 !important;\n    z-index: 9999 !important;\n    opacity: 0.8;\n    -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)\";\n    filter: alpha(opacity=80);\n}\n.gu-hide {\n    display: none !important;\n}\n.gu-unselectable {\n    -webkit-user-select: none !important;\n    -moz-user-select: none !important;\n    -ms-user-select: none !important;\n    user-select: none !important;\n}\n.gu-transit {\n    opacity: 0.2;\n    -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)\";\n    filter: alpha(opacity=20);\n}\n"])
+C.ff=I.i([C.e8])
+C.d6=new Z.eS("asset:ng2_dragula/lib/dragula.dart|Dragula",Q.Fa(),C.eV,C.ff)
 C.cK=new Z.P("h1",C.a,C.a,C.a,C.a,!1,null)
+C.n=new Z.l("\n  ",!1,null)
 C.eH=I.i(["href","https://github.com/bevacqua/dragula"])
 C.a8=new Z.P("a",C.eH,C.a,C.a,C.a,!1,null)
+C.o=new Z.l("\n    ",!1,null)
 C.ev=I.i(["alt","dragula","onerror","this.src=\"resources/logo.png\"","src","resources/logo.svg"])
 C.cu=new Z.P("img",C.ev,C.a,C.a,C.a,!1,null)
 C.b=new Z.vQ()
-C.I=new Z.l("\n",!1,null)
-C.h0=I.i(["class","tagline"])
-C.cN=new Z.P("h3",C.h0,C.a,C.a,C.a,!1,null)
+C.E=new Z.l("\n",!1,null)
+C.h1=I.i(["class","tagline"])
+C.cN=new Z.P("h3",C.h1,C.a,C.a,C.a,!1,null)
 C.hk=I.i(["class","tagline-text"])
 C.cy=new Z.P("span",C.hk,C.a,C.a,C.a,!1,null)
 C.k7=new Z.l("Drag and drop so simple it hurts\n    ",!1,null)
 C.aW=new Z.P("br",C.a,C.a,C.a,C.a,!1,null)
-C.k3=new Z.l("Now also for Angular2 Dart!\n    ",!1,null)
-C.fX=I.i(["class","examples"])
-C.cH=new Z.P("div",C.fX,C.a,C.a,C.a,!1,null)
-C.n=new Z.l("\n  ",!1,null)
-C.fZ=I.i(["class","parent"])
-C.w=new Z.P("div",C.fZ,C.a,C.a,C.a,!1,null)
-C.o=new Z.l("\n    ",!1,null)
-C.h8=I.i(["for","hy"])
-C.C=new Z.P("label",C.h8,C.a,C.a,C.a,!1,null)
+C.k3=new Z.l("Now also for Angular2 Dart!\n  ",!1,null)
+C.fY=I.i(["class","examples"])
+C.cH=new Z.P("div",C.fY,C.a,C.a,C.a,!1,null)
+C.h_=I.i(["class","parent"])
+C.w=new Z.P("div",C.h_,C.a,C.a,C.a,!1,null)
+C.h9=I.i(["for","hy"])
+C.C=new Z.P("label",C.h9,C.a,C.a,C.a,!1,null)
 C.jq=new Z.l("Move stuff between these two containers. Note how the stuff gets inserted near the mouse pointer?\n      Great stuff.",!1,null)
-C.h1=I.i(["class","wrapper"])
+C.h2=I.i(["class","wrapper"])
 C.bP=H.u("kt")
 C.ad=I.i([C.bP])
 C.a6=new K.id(2)
-C.B=new Z.eN("dragula",C.h1,C.a,C.a,C.ad,C.a6,null,Q.qG(),!0)
+C.B=new Z.eN("dragula",C.h2,C.a,C.a,C.ad,C.a6,null,Q.qG(),!0)
 C.q=new Z.l("\n      ",!1,0)
 C.hL=I.i(["class","container","id","left-defaults"])
 C.cL=new Z.P("div",C.hL,C.a,C.a,C.a,!1,0)
@@ -16998,7 +17003,7 @@ C.jt=new Z.l("Make sure to check out the ",!1,null)
 C.ep=I.i(["href","https://github.com/bevacqua/dragula#readme"])
 C.cF=new Z.P("a",C.ep,C.a,C.a,C.a,!1,null)
 C.j3=new Z.l("documentation on\n          GitHub!",!1,null)
-C.E=new Z.l("\n    ",!1,0)
+C.F=new Z.l("\n    ",!1,0)
 C.v=new Z.vP()
 C.x=new Z.P("pre",C.a,C.a,C.a,C.a,!1,null)
 C.z=new Z.l("          ",!1,null)
@@ -17090,8 +17095,8 @@ C.jw=new Z.l("\nCopy copy = (Element el, Element source) =>\n    source == query
 C.iL=new Z.l("Drag handles float your cruise?",!1,null)
 C.hK=I.i(["class","container","id","left-lovehandles"])
 C.cI=new Z.P("div",C.hK,C.a,C.a,C.a,!1,0)
-C.fY=I.i(["class","handle"])
-C.P=new Z.P("span",C.fY,C.a,C.a,C.a,!1,null)
+C.fZ=I.i(["class","handle"])
+C.P=new Z.P("span",C.fZ,C.a,C.a,C.a,!1,null)
 C.Y=new Z.l("+",!1,null)
 C.kq=new Z.l("Move me, but you can use the plus sign to drag me around.",!1,null)
 C.iX=new Z.l("Note that ",!1,null)
@@ -17099,8 +17104,8 @@ C.jT=new Z.l("handle",!1,null)
 C.iI=new Z.l(" element in the ",!1,null)
 C.al=new Z.l("moves",!1,null)
 C.ja=new Z.l(" handler is\n          just the original event target.\n        ",!1,null)
-C.h3=I.i(["class","container","id","right-lovehandles"])
-C.cn=new Z.P("div",C.h3,C.a,C.a,C.a,!1,0)
+C.h4=I.i(["class","container","id","right-lovehandles"])
+C.cn=new Z.P("div",C.h4,C.a,C.a,C.a,!1,0)
 C.jH=new Z.l("This might also be useful if you want multiple children of an element to be\n          able to trigger a drag event.\n        ",!1,null)
 C.km=new Z.l("You can also use the ",!1,null)
 C.kg=new Z.l(" option to determine whether an element\n          can be dragged at all from a container, ",!1,null)
@@ -17127,10 +17132,10 @@ C.jj=new Z.l("Click or Drag!",!1,null)
 C.j5=new Z.l(" Fires a click when the mouse button is released before a\n      ",!1,null)
 C.k1=new Z.l("mousemove",!1,null)
 C.jy=new Z.l(" event, otherwise a drag event is fired. No extra configuration is necessary.",!1,null)
-C.fW=I.i(["class","container","id","sortable"])
+C.fX=I.i(["class","container","id","sortable"])
 C.hw=I.i([null,"click"])
 C.hH=I.i(["sortable",null])
-C.cq=new Z.P("div",C.fW,C.hw,C.hH,C.a,!0,0)
+C.cq=new Z.P("div",C.fX,C.hw,C.hH,C.a,!0,0)
 C.jM=new Z.l("Clicking on these elements triggers a regular ",!1,null)
 C.jB=new Z.l("click",!1,null)
 C.j7=new Z.l(" event you can listen to.",!1,null)
@@ -17140,8 +17145,8 @@ C.jo=new Z.l("Drags don't trigger click events.",!1,null)
 C.iT=new Z.l("Clicks don't end up in a drag, either.",!1,null)
 C.ka=new Z.l("This is useful if you have elements that can be both clicked or dragged.",!1,null)
 C.iQ=new Z.l("\n<dragula class='wrapper'>\n  <div id='sortable' class='container'>\n    ...\n  </div>\n</dragula>\n          ",!1,null)
-C.h_=I.i(["class","promo"])
-C.cx=new Z.P("h3",C.h_,C.a,C.a,C.a,!1,null)
+C.h0=I.i(["class","promo"])
+C.cx=new Z.P("h3",C.h0,C.a,C.a,C.a,!1,null)
 C.jA=new Z.l("Who couldn't love a pun that good? \u2014 ",!1,null)
 C.eI=I.i(["href","http://thenextweb.com/dd/2015/07/20/less-of-a-drag-maaaaaaaan"])
 C.cG=new Z.P("a",C.eI,C.a,C.a,C.a,!1,null)
@@ -17149,15 +17154,10 @@ C.kj=new Z.l("The Next Web",!1,null)
 C.cw=new Z.P("h3",C.a,C.a,C.a,C.a,!1,null)
 C.j1=new Z.l("Get it on GitHub! ",!1,null)
 C.iH=new Z.l("bevacqua/dragula",!1,null)
-C.ha=I.i([C.cK,C.a8,C.cu,C.b,C.b,C.b,C.I,C.cN,C.cy,C.k7,C.aW,C.b,C.aW,C.b,C.k3,C.b,C.I,C.b,C.I,C.cH,C.n,C.w,C.o,C.C,C.jq,C.b,C.o,C.B,C.q,C.cL,C.f,C.h,C.j2,C.b,C.f,C.h,C.jL,C.b,C.f,C.h,C.jK,C.a8,C.k_,C.b,C.jV,C.cp,C.cC,C.b,C.bz,C.b,C.bz,C.cO,C.k4,C.b,C.f,C.b,C.r,C.b,C.q,C.cD,C.f,C.h,C.iW,C.b,C.f,C.h,C.js,C.b,C.f,C.h,C.jX,C.b,C.f,C.h,C.k0,C.k,C.jC,C.b,C.k8,C.cv,C.b,C.b,C.f,C.h,C.jt,C.cF,C.j3,C.b,C.b,C.r,C.b,C.E,C.v,C.f,C.x,C.z,C.k,C.iJ,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.j4,C.ct,C.iN,C.b,C.jQ,C.b,C.o,C.B,C.q,C.cS,C.f,C.h,C.iP,C.k,C.jD,C.b,C.iV,C.b,C.f,C.h,C.jg,C.k,C.j6,C.b,C.kl,C.k,C.bC,C.b,C.jm,C.b,C.f,C.h,C.by,C.k,C.kb,C.b,C.jz,C.b,C.f,C.h,C.bA,C.k,C.jF,C.b,C.j_,C.a9,C.jI,C.b,C.b,C.r,C.b,C.q,C.cr,C.f,C.h,C.jR,C.k,C.k9,C.b,C.jU,C.b,C.f,C.h,C.bA,C.k,C.bB,C.b,C.kp,C.b,C.f,C.h,C.by,C.k,C.k6,C.b,C.jb,C.k,C.k5,C.b,C.iR,C.b,C.f,C.h,C.kf,C.k,C.jE,C.b,C.jP,C.b,C.r,C.b,C.E,C.v,C.f,C.x,C.z,C.k,C.jp,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.jZ,C.b,C.o,C.B,C.q,C.cs,C.f,C.h,C.ju,C.b,C.f,C.h,C.iS,C.b,C.f,C.h,C.jk,C.cM,C.jY,C.b,C.b,C.f,C.h,C.k2,C.b,C.r,C.b,C.q,C.cJ,C.f,C.h,C.jc,C.b,C.f,C.h,C.iZ,C.b,C.f,C.h,C.kk,C.b,C.f,C.h,C.j9,C.b,C.r,C.b,C.E,C.v,C.f,C.x,C.z,C.k,C.kd,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.jf,C.b,C.o,C.B,C.q,C.cz,C.f,C.h,C.iG,C.b,C.f,C.h,C.ji,C.b,C.f,C.h,C.jO,C.k,C.bB,C.b,C.jn,C.b,C.r,C.b,C.q,C.cP,C.f,C.h,C.jN,C.b,C.f,C.h,C.j8,C.b,C.r,C.b,C.E,C.v,C.f,C.x,C.z,C.k,C.ko,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.j0,C.b,C.o,C.B,C.q,C.cA,C.f,C.h,C.jd,C.b,C.f,C.h,C.jS,C.a9,C.kc,C.b,C.iU,C.b,C.f,C.h,C.iY,C.k,C.bC,C.b,C.iF,C.b,C.r,C.b,C.q,C.cB,C.f,C.h,C.kn,C.b,C.f,C.h,C.iM,C.b,C.r,C.b,C.E,C.v,C.f,C.x,C.z,C.k,C.jh,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.iO,C.b,C.ke,C.x,C.z,C.k,C.jw,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.iL,C.b,C.o,C.B,C.q,C.cI,C.f,C.h,C.P,C.Y,C.b,C.kq,C.b,C.f,C.h,C.P,C.Y,C.b,C.iX,C.k,C.jT,C.b,C.iI,C.k,C.al,C.b,C.ja,C.b,C.r,C.b,C.q,C.cn,C.f,C.h,C.P,C.Y,C.b,C.jH,C.b,C.f,C.h,C.P,C.Y,C.b,C.km,C.k,C.al,C.b,C.kg,C.a9,C.kh,C.b,C.jG,C.b,C.r,C.b,C.E,C.v,C.f,C.x,C.z,C.k,C.jl,C.b,C.f,C.b,C.o,C.h,C.iK,C.co,C.ak,C.k,C.al,C.b,C.aj,C.b,C.ki,C.cQ,C.ak,C.k,C.jx,C.b,C.aj,C.b,C.jJ,C.cE,C.ak,C.k,C.jW,C.b,C.aj,C.b,C.je,C.b,C.n,C.b,C.n,C.w,C.o,C.cR,C.cm,C.jj,C.b,C.j5,C.k,C.k1,C.b,C.jy,C.b,C.o,C.B,C.q,C.cq,C.f,C.h,C.jM,C.k,C.jB,C.b,C.j7,C.b,C.f,C.h,C.jr,C.b,C.f,C.h,C.jv,C.b,C.f,C.h,C.jo,C.b,C.f,C.h,C.iT,C.b,C.f,C.h,C.ka,C.b,C.r,C.b,C.E,C.v,C.f,C.x,C.z,C.k,C.iQ,C.b,C.f,C.b,C.n,C.b,C.I,C.b,C.I,C.cx,C.jA,C.cG,C.kj,C.b,C.b,C.I,C.cw,C.j1,C.a8,C.iH,C.b,C.b])
+C.fW=I.i([C.cK,C.n,C.a8,C.o,C.cu,C.b,C.b,C.E,C.b,C.E,C.cN,C.n,C.cy,C.k7,C.aW,C.b,C.aW,C.b,C.k3,C.b,C.E,C.b,C.E,C.cH,C.n,C.w,C.o,C.C,C.jq,C.b,C.o,C.B,C.q,C.cL,C.f,C.h,C.j2,C.b,C.f,C.h,C.jL,C.b,C.f,C.h,C.jK,C.a8,C.k_,C.b,C.jV,C.cp,C.cC,C.b,C.bz,C.b,C.bz,C.cO,C.k4,C.b,C.f,C.b,C.r,C.b,C.q,C.cD,C.f,C.h,C.iW,C.b,C.f,C.h,C.js,C.b,C.f,C.h,C.jX,C.b,C.f,C.h,C.k0,C.k,C.jC,C.b,C.k8,C.cv,C.b,C.b,C.f,C.h,C.jt,C.cF,C.j3,C.b,C.b,C.r,C.b,C.F,C.v,C.f,C.x,C.z,C.k,C.iJ,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.j4,C.ct,C.iN,C.b,C.jQ,C.b,C.o,C.B,C.q,C.cS,C.f,C.h,C.iP,C.k,C.jD,C.b,C.iV,C.b,C.f,C.h,C.jg,C.k,C.j6,C.b,C.kl,C.k,C.bC,C.b,C.jm,C.b,C.f,C.h,C.by,C.k,C.kb,C.b,C.jz,C.b,C.f,C.h,C.bA,C.k,C.jF,C.b,C.j_,C.a9,C.jI,C.b,C.b,C.r,C.b,C.q,C.cr,C.f,C.h,C.jR,C.k,C.k9,C.b,C.jU,C.b,C.f,C.h,C.bA,C.k,C.bB,C.b,C.kp,C.b,C.f,C.h,C.by,C.k,C.k6,C.b,C.jb,C.k,C.k5,C.b,C.iR,C.b,C.f,C.h,C.kf,C.k,C.jE,C.b,C.jP,C.b,C.r,C.b,C.F,C.v,C.f,C.x,C.z,C.k,C.jp,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.jZ,C.b,C.o,C.B,C.q,C.cs,C.f,C.h,C.ju,C.b,C.f,C.h,C.iS,C.b,C.f,C.h,C.jk,C.cM,C.jY,C.b,C.b,C.f,C.h,C.k2,C.b,C.r,C.b,C.q,C.cJ,C.f,C.h,C.jc,C.b,C.f,C.h,C.iZ,C.b,C.f,C.h,C.kk,C.b,C.f,C.h,C.j9,C.b,C.r,C.b,C.F,C.v,C.f,C.x,C.z,C.k,C.kd,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.jf,C.b,C.o,C.B,C.q,C.cz,C.f,C.h,C.iG,C.b,C.f,C.h,C.ji,C.b,C.f,C.h,C.jO,C.k,C.bB,C.b,C.jn,C.b,C.r,C.b,C.q,C.cP,C.f,C.h,C.jN,C.b,C.f,C.h,C.j8,C.b,C.r,C.b,C.F,C.v,C.f,C.x,C.z,C.k,C.ko,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.j0,C.b,C.o,C.B,C.q,C.cA,C.f,C.h,C.jd,C.b,C.f,C.h,C.jS,C.a9,C.kc,C.b,C.iU,C.b,C.f,C.h,C.iY,C.k,C.bC,C.b,C.iF,C.b,C.r,C.b,C.q,C.cB,C.f,C.h,C.kn,C.b,C.f,C.h,C.iM,C.b,C.r,C.b,C.F,C.v,C.f,C.x,C.z,C.k,C.jh,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.iO,C.b,C.ke,C.x,C.z,C.k,C.jw,C.b,C.f,C.b,C.n,C.b,C.n,C.w,C.o,C.C,C.iL,C.b,C.o,C.B,C.q,C.cI,C.f,C.h,C.P,C.Y,C.b,C.kq,C.b,C.f,C.h,C.P,C.Y,C.b,C.iX,C.k,C.jT,C.b,C.iI,C.k,C.al,C.b,C.ja,C.b,C.r,C.b,C.q,C.cn,C.f,C.h,C.P,C.Y,C.b,C.jH,C.b,C.f,C.h,C.P,C.Y,C.b,C.km,C.k,C.al,C.b,C.kg,C.a9,C.kh,C.b,C.jG,C.b,C.r,C.b,C.F,C.v,C.f,C.x,C.z,C.k,C.jl,C.b,C.f,C.b,C.o,C.h,C.iK,C.co,C.ak,C.k,C.al,C.b,C.aj,C.b,C.ki,C.cQ,C.ak,C.k,C.jx,C.b,C.aj,C.b,C.jJ,C.cE,C.ak,C.k,C.jW,C.b,C.aj,C.b,C.je,C.b,C.n,C.b,C.n,C.w,C.o,C.cR,C.cm,C.jj,C.b,C.j5,C.k,C.k1,C.b,C.jy,C.b,C.o,C.B,C.q,C.cq,C.f,C.h,C.jM,C.k,C.jB,C.b,C.j7,C.b,C.f,C.h,C.jr,C.b,C.f,C.h,C.jv,C.b,C.f,C.h,C.jo,C.b,C.f,C.h,C.iT,C.b,C.f,C.h,C.ka,C.b,C.r,C.b,C.F,C.v,C.f,C.x,C.z,C.k,C.iQ,C.b,C.f,C.b,C.n,C.b,C.E,C.b,C.E,C.cx,C.jA,C.cG,C.kj,C.b,C.b,C.E,C.cw,C.j1,C.a8,C.iH,C.b,C.b])
 C.he=I.i(["h1[_ngcontent-%COMP%] {\n    text-align: center;\n    background-color: #AC5C7E;\n    margin-top: 20px;\n    margin-bottom: 0;\n    padding: 10px;\n}\n\nh3[_ngcontent-%COMP%] {\n    background-color: rgba(255, 255, 255, 0.2);\n    border-bottom: 5px solid #A13462;\n    text-align: center;\n    padding: 10px;\n}\n\nh3[_ngcontent-%COMP%] div[_ngcontent-%COMP%] {\n    margin-bottom: 10px;\n}\n\n.tagline[_ngcontent-%COMP%] {\n    margin-top: 0;\n}\n.tagline-text[_ngcontent-%COMP%] {\n    vertical-align: middle;\n}\n.__slackin[_ngcontent-%COMP%] {\n    float: right;\n    margin-left: 10px;\n    vertical-align: middle;\n}\n\n.promo[_ngcontent-%COMP%] {\n    margin-bottom: 0;\n    font-style: italic;\n    padding: 10px;\n    background-color: #ff4020;\n    border-bottom: 5px solid #c00;\n}\n\na[_ngcontent-%COMP%] {\n    font-weight: bold;\n}\na[_ngcontent-%COMP%], a[_ngcontent-%COMP%]:hover {\n    color: #ecf0f1;\n}\n\npre[_ngcontent-%COMP%] {\n    white-space: pre-wrap;\n}\n\npre[_ngcontent-%COMP%] code[_ngcontent-%COMP%] {\n    color: #fff;\n    font-size: 14px;\n    line-height: 1.3;\n}\n\nlabel[_ngcontent-%COMP%] {\n    display: block;\n    margin-bottom: 15px;\n}\n\nsub[_ngcontent-%COMP%] {\n    display: block;\n    text-align: right;\n    margin-top: -10px;\n    font-size: 11px;\n    font-style: italic;\n}\n\nul[_ngcontent-%COMP%] {\n    margin: 0;\n    padding: 0;\n}\n\n.parent[_ngcontent-%COMP%] {\n    background-color: rgba(255, 255, 255, 0.2);\n    margin: 50px 0;\n    padding: 20px;\n}\n\ninput[_ngcontent-%COMP%] {\n    border: none;\n    outline: none;\n    background-color: #ecf0f1;\n    padding: 10px;\n    color: #942A57;\n    border: 0;\n    margin: 5px 0;\n    display: block;\n    width: 100%;\n}\n\nbutton[_ngcontent-%COMP%] {\n    background-color: #ecf0f1;\n    color: #942A57;\n    border: 0;\n    padding: 18px 12px;\n    margin-left: 6px;\n    cursor: pointer;\n    outline: none;\n}\n\nbutton[_ngcontent-%COMP%]:hover {\n    background-color: #e74c3c;\n    color: #ecf0f1;\n}\n\n.gh-fork[_ngcontent-%COMP%] {\n    position: fixed;\n    top: 0;\n    right: 0;\n    border: 0;\n}\n\n\n.wrapper[_ngcontent-%COMP%] {\n    display: table;\n}\n.container[_ngcontent-%COMP%] {\n    display: table-cell;\n    background-color: rgba(255, 255, 255, 0.2);\n    width: 50%;\n}\n.container[_ngcontent-%COMP%]:nth-child(odd) {\n    background-color: rgba(0, 0, 0, 0.2);\n}\n\n.container[_ngcontent-%COMP%] > div[_ngcontent-%COMP%], .gu-mirror[_ngcontent-%COMP%] {\n    margin: 10px;\n    padding: 10px;\n    background-color: rgba(0, 0, 0, 0.2);\n    transition: opacity 0.4s ease-in-out;\n}\n.container[_ngcontent-%COMP%] > div[_ngcontent-%COMP%] {\n    cursor: move;\n    cursor: grab;\n    cursor: -moz-grab;\n    cursor: -webkit-grab;\n}\n.gu-mirror[_ngcontent-%COMP%] {\n    cursor: grabbing;\n    cursor: -moz-grabbing;\n    cursor: -webkit-grabbing;\n}\n.container[_ngcontent-%COMP%] .ex-moved[_ngcontent-%COMP%] {\n    background-color: #e74c3c;\n}\n.container.ex-over[_ngcontent-%COMP%] {\n    background-color: rgba(255, 255, 255, 0.3);\n}\n#left-lovehandles[_ngcontent-%COMP%] > div[_ngcontent-%COMP%], #right-lovehandles[_ngcontent-%COMP%] > div[_ngcontent-%COMP%] {\n    cursor: initial;\n}\n.handle[_ngcontent-%COMP%] {\n    padding: 0 5px;\n    margin-right: 5px;\n    background-color: rgba(0, 0, 0, 0.4);\n    cursor: move;\n}\n.image-thing[_ngcontent-%COMP%] {\n    margin: 20px 0;\n    display: block;\n    text-align: center;\n}"])
 C.fe=I.i([C.he])
-C.d6=new Z.eS("asset:ng2_dragula/web/main.dart|App",L.F8(),C.ha,C.fe)
-C.i7=new Z.y9(0,null,!1)
-C.eV=I.i([C.i7])
-C.e8=I.i([".gu-mirror {\n    position: fixed !important;\n    margin: 0 !important;\n    z-index: 9999 !important;\n    opacity: 0.8;\n    -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)\";\n    filter: alpha(opacity=80);\n}\n.gu-hide {\n    display: none !important;\n}\n.gu-unselectable {\n    -webkit-user-select: none !important;\n    -moz-user-select: none !important;\n    -ms-user-select: none !important;\n    user-select: none !important;\n}\n.gu-transit {\n    opacity: 0.2;\n    -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)\";\n    filter: alpha(opacity=20);\n}\n"])
-C.ff=I.i([C.e8])
-C.d7=new Z.eS("asset:ng2_dragula/lib/dragula.dart|Dragula",Q.Fa(),C.eV,C.ff)
+C.d7=new Z.eS("asset:ng2_dragula/web/main.dart|App",L.F8(),C.fW,C.fe)
 C.b2=new P.ai(0)
 C.cV=new O.v1()
 C.en=I.i([C.cV])
@@ -17555,12 +17555,12 @@ C.bH=H.u("eT")
 C.fm=I.i([C.bH])
 C.ap=H.u("eK")
 C.fi=I.i([C.ap])
-C.h2=I.i([C.fm,C.fi])
+C.h3=I.i([C.fm,C.fi])
 C.kA=H.u("LS")
-C.h4=I.i([C.c9,C.kA])
+C.h5=I.i([C.c9,C.kA])
 C.di=new V.am("option",null,null,null,null,null,null,null,null,null,null)
-C.h5=I.i([C.di])
-C.h6=H.h(I.i([]),[P.o])
+C.h6=I.i([C.di])
+C.h7=H.h(I.i([]),[P.o])
 C.hb=I.i([0,0,32722,12287,65534,34815,65534,18431])
 C.kG=H.u("dynamic")
 C.bv=new N.bo("DocumentToken")
@@ -17590,8 +17590,8 @@ C.am=H.u("eG")
 C.fg=I.i([C.am])
 C.eC=I.i([C.b3])
 C.hA=I.i([C.fp,C.fo,C.fg,C.eC])
-C.hC=I.i([0,0,65490,12287,65535,34815,65534,18431])
 C.hD=I.i([0,0,32722,12287,65535,34815,65534,18431])
+C.hC=I.i([0,0,65490,12287,65535,34815,65534,18431])
 C.ip=new S.aG(C.X,null,T.Jv(),null,null,null,!0)
 C.ed=I.i([C.ip])
 C.dg=new V.am("[required][ng-control],[required][ng-form-control],[required][ng-model]",null,null,null,null,null,C.ed,null,null,null,null)
@@ -17603,10 +17603,10 @@ C.iz=new S.aG(C.X,null,null,C.aC,null,null,!0)
 C.hm=I.i([C.iz])
 C.dv=new V.am("[minlength][ng-control],[minlength][ng-form-control],[minlength][ng-model]",null,null,null,null,null,C.hm,null,null,null,null)
 C.hG=I.i([C.dv])
-C.h9=I.i(["name: ng-control-group"])
+C.ha=I.i(["name: ng-control-group"])
 C.is=new S.aG(C.Z,null,null,C.aD,null,null,null)
 C.ho=I.i([C.is])
-C.df=new V.am("[ng-control-group]",C.h9,null,null,null,null,C.ho,null,"form",null,null)
+C.df=new V.am("[ng-control-group]",C.ha,null,null,null,null,C.ho,null,"form",null,null)
 C.hJ=I.i([C.df])
 C.hr=I.i(["ngForOf","ngForTemplate"])
 C.de=new V.am("[ng-for][ng-for-of]",C.hr,null,null,null,null,null,null,null,null,null)
@@ -17627,8 +17627,8 @@ C.hW=new H.c9([0,"LifecycleHooks.OnInit",1,"LifecycleHooks.OnDestroy",2,"Lifecyc
 C.em=I.i(["altGlyph","altGlyphDef","altGlyphItem","animate","animateColor","animateMotion","animateTransform","circle","clipPath","color-profile","cursor","defs","desc","ellipse","feBlend","feColorMatrix","feComponentTransfer","feComposite","feConvolveMatrix","feDiffuseLighting","feDisplacementMap","feDistantLight","feFlood","feFuncA","feFuncB","feFuncG","feFuncR","feGaussianBlur","feImage","feMerge","feMergeNode","feMorphology","feOffset","fePointLight","feSpecularLighting","feSpotLight","feTile","feTurbulence","filter","font","font-face","font-face-format","font-face-name","font-face-src","font-face-uri","foreignObject","g","glyphRef","hkern","image","line","linearGradient","marker","mask","metadata","missing-glyph","mpath","path","pattern","polygon","polyline","radialGradient","rect","set","stop","style","svg","switch","symbol","text","textPath","title","tref","tspan","use","view","vkern"])
 C.hX=new H.c5(77,{altGlyph:!0,altGlyphDef:!0,altGlyphItem:!0,animate:!0,animateColor:!0,animateMotion:!0,animateTransform:!0,circle:!0,clipPath:!0,"color-profile":!0,cursor:!0,defs:!0,desc:!0,ellipse:!0,feBlend:!0,feColorMatrix:!0,feComponentTransfer:!0,feComposite:!0,feConvolveMatrix:!0,feDiffuseLighting:!0,feDisplacementMap:!0,feDistantLight:!0,feFlood:!0,feFuncA:!0,feFuncB:!0,feFuncG:!0,feFuncR:!0,feGaussianBlur:!0,feImage:!0,feMerge:!0,feMergeNode:!0,feMorphology:!0,feOffset:!0,fePointLight:!0,feSpecularLighting:!0,feSpotLight:!0,feTile:!0,feTurbulence:!0,filter:!0,font:!0,"font-face":!0,"font-face-format":!0,"font-face-name":!0,"font-face-src":!0,"font-face-uri":!0,foreignObject:!0,g:!0,glyphRef:!0,hkern:!0,image:!0,line:!0,linearGradient:!0,marker:!0,mask:!0,metadata:!0,"missing-glyph":!0,mpath:!0,path:!0,pattern:!0,polygon:!0,polyline:!0,radialGradient:!0,rect:!0,set:!0,stop:!0,style:!0,svg:!0,switch:!0,symbol:!0,text:!0,textPath:!0,title:!0,tref:!0,tspan:!0,use:!0,view:!0,vkern:!0},C.em)
 C.hY=new H.c9([0,"ChangeDetectionStrategy.CheckOnce",1,"ChangeDetectionStrategy.Checked",2,"ChangeDetectionStrategy.CheckAlways",3,"ChangeDetectionStrategy.Detached",4,"ChangeDetectionStrategy.OnPush",5,"ChangeDetectionStrategy.Default",6,"ChangeDetectionStrategy.OnPushObserve"])
-C.h7=H.h(I.i([]),[P.cB])
-C.bs=H.h(new H.c5(0,{},C.h7),[P.cB,null])
+C.h8=H.h(I.i([]),[P.cB])
+C.bs=H.h(new H.c5(0,{},C.h8),[P.cB,null])
 C.dV=new O.cb(0)
 C.dW=new O.cb(2)
 C.dX=new O.cb(3)
