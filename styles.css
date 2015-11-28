@@ -1,0 +1,23 @@
+body {
+    background-color: #942A57;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+html, body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body, input, button {
+    font-family: Georgia, Helvetica;
+    font-size: 17px;
+    color: #ecf0f1;
+}

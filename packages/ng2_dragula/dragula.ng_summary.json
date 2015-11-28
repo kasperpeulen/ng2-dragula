@@ -1,0 +1,374 @@
+{
+  "ngDeps": {
+    "1": "components.dragula",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:dragula/dragula.dart",
+        "5": false
+      },
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "package:js/js.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "Dragula",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'dragula'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'dragula.html'"
+              },
+              {
+                "1": "styleUrls",
+                "2": "const ['dragula.css']"
+              },
+              {
+                "1": "directives",
+                "2": "const []"
+              },
+              {
+                "1": "encapsulation",
+                "2": "ViewEncapsulation.None"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ],
+        "6": [
+          "OnInit"
+        ],
+        "7": [
+          {
+            "1": "containers",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "direction",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "removeOnSpill",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "revertOnSpill",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "copySortSource",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "mirrorContainer",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onDrag",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onDragEnd",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onDrop",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onCancel",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onShadow",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onOver",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onOut",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onCloned",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "copy",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "accepts",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "moves",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "invalid",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "isContainer",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "6": "dragula.dart"
+  },
+  "Dragula": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "dragula",
+      "exportAs": null,
+      "type": {
+        "name": "Dragula",
+        "moduleUrl": "asset:ng2_dragula/lib/dragula.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "containers": "containers",
+        "direction": "direction",
+        "removeOnSpill": "removeOnSpill",
+        "revertOnSpill": "revertOnSpill",
+        "copySortSource": "copySortSource",
+        "mirrorContainer": "mirrorContainer",
+        "onDrag": "onDrag",
+        "onDragEnd": "onDragEnd",
+        "onDrop": "onDrop",
+        "onCancel": "onCancel",
+        "onShadow": "onShadow",
+        "onOver": "onOver",
+        "onOut": "onOut",
+        "onCloned": "onCloned",
+        "copy": "copy",
+        "accepts": "accepts",
+        "moves": "moves",
+        "invalid": "invalid",
+        "isContainer": "isContainer"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        0
+      ],
+      "template": {
+        "encapsulation": 2,
+        "template": "<ng-content></ng-content>",
+        "templateUrl": "asset:ng2_dragula/lib/dragula.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:ng2_dragula/lib/dragula.css"
+        ],
+        "ngContentSelectors": [
+          "*"
+        ]
+      }
+    }
+  }
+}
