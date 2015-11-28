@@ -184,15 +184,16 @@
     </dragula>
 
         <pre>          <code>
-            &lt;dragula  [copy]="copy" [accepts]="accepts" class='wrapper'&gt;
-            &lt;div id='left-copy-1tomany' class='container'&gt;
-            ...
-            &lt;/div&gt;
-            &lt;div id='right-copy-1tomany' class='container'&gt;
-            &lt;/div&gt;
-            &lt;/dragula&gt;
+&lt;dragula  [copy]="copy" [accepts]="accepts" class='wrapper'&gt;
+  &lt;div id='left-copy-1tomany' class='container'&gt;
+    ...
+  &lt;/div&gt;
+  &lt;div id='right-copy-1tomany' class='container'&gt;
+    ...
+  &lt;/div&gt;
+&lt;/dragula&gt;
 
-            ...
+...
 
 Copy copy = (Element el, Element source) =&gt;
     source == querySelector('#left-copy-1tomany');
