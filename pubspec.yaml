@@ -1,8 +1,8 @@
 name: ng2_dragula
 version: 0.0.2
-description: 
+description: Drag and drop component for Angular 2 Dart.
 author: Kasper Peulen <kasperpeulen@gmail.com>
-homepage: 
+homepage: https://github.com/kasperpeulen/ng2-dragula.git
 environment:
   sdk: '>=1.13.0 <2.0.0'
 dependencies:
