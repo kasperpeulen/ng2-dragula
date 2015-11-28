@@ -1,7 +1,7 @@
 library components.dragula;
 
 import 'package:angular2/angular2.dart';
-import 'package:dragula/dragula.dart';
+import 'package:dragula/dragula_raw.dart';
 import 'dart:html';
 import 'package:js/js.dart';
 
@@ -9,17 +9,24 @@ import 'package:js/js.dart';
     selector: 'dragula',
     templateUrl: 'dragula.html',
     styleUrls: const ['dragula.css'],
-    directives: const [],
     encapsulation: ViewEncapsulation.None)
 class Dragula implements OnInit {
-  ElementRef ref;
+  @Input() List<Element> containers = [];
+  @Input() Element mirrorContainer = document.body;
+  @Input() String direction = 'vertical';
+  @Input() bool removeOnSpill = false;
+  @Input() bool revertOnSpill = false;
+  @Input() bool copySortSource = false;
+  @Input() bool ignoreInputTextSelection = true;
 
-  @Input() List<Element> containers;
-  @Input() String direction;
-  @Input() bool removeOnSpill;
-  @Input() bool revertOnSpill;
-  @Input() bool copySortSource;
-  @Input() Element mirrorContainer;
+  @Input() dynamic /*bool|Copy*/ copy = false;
+  @Input() Accepts accepts =
+      (Element el, Element target, Element source, Element reference) => true;
+  @Input() Moves moves =
+      (Element el, Element source, Element handling, Element sibling) => true;
+  @Input() Invalid invalid = (Element el, target) => false;
+  @Input() IsContainer isContainer = (Element el) => false;
+
   @Input() OnDrag onDrag;
   @Input() OnDragEnd onDragEnd;
   @Input() OnDrop onDrop;
@@ -28,35 +35,34 @@ class Dragula implements OnInit {
   @Input() OnOver onOver;
   @Input() OnOut onOut;
   @Input() OnCloned onCloned;
-  @Input() dynamic copy = false;
-  @Input() Function accepts;
-  @Input() Function moves;
-  @Input() Function invalid;
-  @Input() Function isContainer;
+
+  ElementRef ref;
 
   Dragula(this.ref);
 
   onInit() {
-    if (copy is Function) {
-      copy = allowInterop(copy);
-    }
+    if (copy is Copy) copy = allowInterop(copy);
     if (accepts != null) accepts = allowInterop(accepts);
     if (moves != null) moves = allowInterop(moves);
     if (invalid != null) invalid = allowInterop(invalid);
     if (isContainer != null) isContainer = allowInterop(isContainer);
 
-    containers = (ref.nativeElement as Element).children.toList();
+    containers.addAll((ref.nativeElement as Element).children.toList());
 
-    Drake drake = dragula(containers,
-        direction: direction,
-        mirrorContainer: mirrorContainer,
-        removeOnSpill: removeOnSpill,
-        revertOnSpill: revertOnSpill,
-        copy: copy,
-        accepts: accepts,
-        invalid: invalid,
-        isContainer: isContainer,
-        moves: moves);
+    Drake drake = dragula(
+        [],
+        new DragulaOptions(
+            containers: containers,
+            direction: direction,
+            mirrorContainer: mirrorContainer,
+            removeOnSpill: removeOnSpill,
+            revertOnSpill: revertOnSpill,
+            copy: copy,
+            accepts: accepts,
+            invalid: invalid,
+            isContainer: isContainer,
+            moves: moves));
+
     if (onDrag != null) drake.on('drag', allowInterop(onDrag));
     if (onDragEnd != null) drake.on('dragend', allowInterop(onDragEnd));
     if (onDrop != null) drake.on('drop', allowInterop(onDrop));
@@ -68,6 +74,8 @@ class Dragula implements OnInit {
   }
 }
 
+typedef bool IsContainer(Element el);
+typedef bool Invalid(Element el, Element target);
 typedef bool Copy(Element el, Element source);
 typedef bool Accepts(
     Element el, Element target, Element source, Element sibling);
