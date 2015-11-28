@@ -7,7 +7,7 @@
         "5": false
       },
       {
-        "1": "package:dragula/dragula.dart",
+        "1": "package:dragula/dragula_raw.dart",
         "5": false
       },
       {
@@ -39,10 +39,6 @@
                 "2": "const ['dragula.css']"
               },
               {
-                "1": "directives",
-                "2": "const []"
-              },
-              {
                 "1": "encapsulation",
                 "2": "ViewEncapsulation.None"
               }
@@ -66,6 +62,19 @@
         "7": [
           {
             "1": "containers",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "mirrorContainer",
             "2": [
               {
                 "1": "Input",
@@ -130,7 +139,72 @@
             ]
           },
           {
-            "1": "mirrorContainer",
+            "1": "ignoreInputTextSelection",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "copy",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "accepts",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "moves",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "invalid",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "isContainer",
             "2": [
               {
                 "1": "Input",
@@ -245,71 +319,6 @@
                 "8": false
               }
             ]
-          },
-          {
-            "1": "copy",
-            "2": [
-              {
-                "1": "Input",
-                "4": false,
-                "5": false,
-                "6": false,
-                "7": false,
-                "8": false
-              }
-            ]
-          },
-          {
-            "1": "accepts",
-            "2": [
-              {
-                "1": "Input",
-                "4": false,
-                "5": false,
-                "6": false,
-                "7": false,
-                "8": false
-              }
-            ]
-          },
-          {
-            "1": "moves",
-            "2": [
-              {
-                "1": "Input",
-                "4": false,
-                "5": false,
-                "6": false,
-                "7": false,
-                "8": false
-              }
-            ]
-          },
-          {
-            "1": "invalid",
-            "2": [
-              {
-                "1": "Input",
-                "4": false,
-                "5": false,
-                "6": false,
-                "7": false,
-                "8": false
-              }
-            ]
-          },
-          {
-            "1": "isContainer",
-            "2": [
-              {
-                "1": "Input",
-                "4": false,
-                "5": false,
-                "6": false,
-                "7": false,
-                "8": false
-              }
-            ]
           }
         ]
       }
@@ -337,11 +346,17 @@
       "changeDetection": 5,
       "inputs": {
         "containers": "containers",
+        "mirrorContainer": "mirrorContainer",
         "direction": "direction",
         "removeOnSpill": "removeOnSpill",
         "revertOnSpill": "revertOnSpill",
         "copySortSource": "copySortSource",
-        "mirrorContainer": "mirrorContainer",
+        "ignoreInputTextSelection": "ignoreInputTextSelection",
+        "copy": "copy",
+        "accepts": "accepts",
+        "moves": "moves",
+        "invalid": "invalid",
+        "isContainer": "isContainer",
         "onDrag": "onDrag",
         "onDragEnd": "onDragEnd",
         "onDrop": "onDrop",
@@ -349,12 +364,7 @@
         "onShadow": "onShadow",
         "onOver": "onOver",
         "onOut": "onOut",
-        "onCloned": "onCloned",
-        "copy": "copy",
-        "accepts": "accepts",
-        "moves": "moves",
-        "invalid": "invalid",
-        "isContainer": "isContainer"
+        "onCloned": "onCloned"
       },
       "outputs": {},
       "hostListeners": {},
