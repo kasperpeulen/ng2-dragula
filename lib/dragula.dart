@@ -38,7 +38,7 @@ class Dragula implements OnInit {
 
   onInit() {
     if (copy is Function) {
-      allowInterop(copy);
+      copy = allowInterop(copy);
     }
     if (accepts != null) accepts = allowInterop(accepts);
     if (moves != null) moves = allowInterop(moves);
