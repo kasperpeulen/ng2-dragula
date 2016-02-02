@@ -40,7 +40,8 @@ class Dragula implements OnInit {
 
   Dragula(this.ref);
 
-  onInit() {
+  @override
+  ngOnInit() {
     if (copy is Copy) copy = allowInterop(copy);
     if (accepts != null) accepts = allowInterop(accepts);
     if (moves != null) moves = allowInterop(moves);
