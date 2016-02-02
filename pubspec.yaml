@@ -6,7 +6,7 @@ homepage: https://github.com/kasperpeulen/ng2-dragula.git
 environment:
   sdk: '>=1.13.0 <2.0.0'
 dependencies:
-  angular2: '^2.0.0-alpha.37'
+  angular2: '^2.0.0-beta.2'
   dragula: '^0.0.4'
 dev_dependencies:
   dart_to_js_script_rewriter: '^0.1.0+4'

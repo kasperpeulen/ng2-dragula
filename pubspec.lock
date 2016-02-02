@@ -8,7 +8,7 @@ packages:
   angular2:
     description: angular2
     source: hosted
-    version: "2.0.0-alpha.46"
+    version: "2.0.0-beta.2"
   args:
     description: args
     source: hosted
@@ -161,3 +161,4 @@ packages:
     description: yaml
     source: hosted
     version: "2.1.7"
+sdk: ">=1.13.0 <2.0.0"
